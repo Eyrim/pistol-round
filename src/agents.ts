@@ -1,9 +1,4 @@
-interface AgentProfileInterface {
-    name: string,
-    abilities: Map<string, number>;
-}
-
-class AgentProfile implements AgentProfileInterface {
+class AgentProfile {
     name: string;
     abilities: Map<string, number>;
 
