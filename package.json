@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass-dev": "sass --watch --update --style=expanded src/scss:src/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/scss:src/css"
   },
   "eslintConfig": {
     "extends": [

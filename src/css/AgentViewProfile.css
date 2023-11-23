@@ -1,0 +1,25 @@
+.agent-profile-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.25%;
+  margin-right: 1.25%;
+}
+.agent-profile-container.agent-name {
+  text-decoration: underline;
+}
+.agent-ability-container-container {
+  display: flex;
+  width: 100%;
+}
+
+.agent-ability-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.ability-item::after {
+  content: " \a";
+  white-space: pre;
+}
+
+/*# sourceMappingURL=AgentViewProfile.css.map */

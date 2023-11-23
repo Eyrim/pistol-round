@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import '../css/App.scss';
+import '../css/App.css';
 import { Agents } from '../models/Agents.ts';
 import AgentProfileView from './AgentProfileView.tsx';
 
