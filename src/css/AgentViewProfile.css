@@ -32,3 +32,16 @@
   content: " \a";
   white-space: pre;
 }
+
+.ability-table-header {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.ability-table-data {
+  padding: 1.25%;
+}
+
+.highlighted {
+  background-color: rgba(195, 209, 250, 0.25);
+}
