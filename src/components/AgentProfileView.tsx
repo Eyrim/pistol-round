@@ -27,7 +27,7 @@ export default function App(props: Props): React.JSX.Element {
     }
 
     return (
-        <div className='agent-profile-container'>
+        <div className="agent-profile-container">
             <div className="agent-img-container">
                 <img src={props.profile.iconURL} alt={props.profile.name + "'s icon"} />
             </div>

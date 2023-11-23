@@ -4,9 +4,20 @@
   margin-left: 1.25%;
   margin-right: 1.25%;
 }
-.agent-profile-container.agent-name {
-  text-decoration: underline;
+
+.agent-img-container {
+  margin-left: inherit;
+  margin-right: inherit;
+  flex-grow: 1;
 }
+
+.agent-name {
+  text-decoration: underline;
+  margin-left: inherit;
+  margin-right: inherit;
+  flex-grow: 1;
+}
+
 .agent-ability-container-container {
   display: flex;
   width: 100%;
@@ -21,5 +32,3 @@
   content: " \a";
   white-space: pre;
 }
-
-/*# sourceMappingURL=AgentViewProfile.css.map */
